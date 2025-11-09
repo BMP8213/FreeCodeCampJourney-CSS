@@ -1,0 +1,34 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px auto;
+  width: 50vw;
+  min-height: calc(100vh - 100px);
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+main {
+  display: flex;
+  gap: 50px;
+}
+
+section {
+  width: 40%;
+}
+
+ul {
+  font-family: Arial, Sans-sarif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+li {
+  padding: 6px;
+}
