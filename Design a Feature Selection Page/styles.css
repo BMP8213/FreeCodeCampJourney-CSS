@@ -1,0 +1,49 @@
+body{
+  background-color: white;
+  font-family: Arials, sans-sarif;
+}
+
+h1{
+  text-align: center;
+}
+
+.feature-card-container{
+  display: flex;
+  padding: 20px;
+  
+  
+}
+
+
+.feature-card{
+  width: 230px;
+  margin: 20px;
+  padding: 12px;
+  border: 2px groove red;
+  border-radius: 8px;
+  
+  
+}
+.p1{
+ font-weight: bold;
+}
+
+
+input[type="checkbox"]{
+  /* display: flex;
+  align-items: left; */
+  appearance: none;
+  border: 10px groove red;
+  
+
+}
+
+input[type="checkbox"]:checked::after{
+  content: "✓";
+}
+
+input[type="checkbox"]:checked{
+  background-color: green;
+  border: 10px groove blue;
+}
+
